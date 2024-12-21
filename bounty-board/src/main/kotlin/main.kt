@@ -31,7 +31,7 @@ private fun obtainQuest(
     hasAngeredBarbarians: Boolean,
     hasBefriendedBarbarians: Boolean,
     playerClass: String
-) {
+): String {
     val quest: String = when (playerLevel) {
         1 -> "Meet Mr. Bubbles in the land of soft things."
         in 2..5 -> {
@@ -49,4 +49,5 @@ private fun obtainQuest(
         8 -> "Defeat Nogartse, bring of death and eater of worlds."
         else -> "There are no quests right now."
     }
+    return quest
 }
