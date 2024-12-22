@@ -4,11 +4,9 @@ var playerLevel: Int = 4
 fun main() {
     println("The hero announces her presence to the world.")
     println(HERO_NAME)
+    println(playerLevel)
 
-    println(playerLevel)
-    println("The hero gets a sword")
-    playerLevel++
-    println(playerLevel)
+    //println("The hero gets a sword")
 
     val race = "gnome"
     val faction = when (race) {
@@ -28,6 +26,12 @@ fun main() {
     val quest: String =  obtainQuest(playerLevel, hasAngeredBarbarians, hasBefriendedBarbarians, playerClass)
     println("The hero approaches the bounty board. It reads:")
     println(quest)
+
+    println("Time passes...")
+    println("The hero returns from her quest.")
+
+    playerLevel++
+    println(playerLevel)
 }
 
 private fun obtainQuest(
