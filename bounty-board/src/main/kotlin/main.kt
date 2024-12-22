@@ -44,7 +44,7 @@ private fun readBountyBoard() {
 private fun obtainQuest(
     playerLevel: Int,
     playerClass: String,
-    hasAngeredBarbarians: Boolean,
+    hasAngeredBarbarians: Boolean = false,
     hasBefriendedBarbarians: Boolean,
 ): String {
     val quest: String = when (playerLevel) {
