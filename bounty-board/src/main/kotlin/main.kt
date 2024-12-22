@@ -23,7 +23,7 @@ fun main() {
     val playerClass = "paladin"
     //function call
 
-    val quest: String =  obtainQuest(playerLevel, hasAngeredBarbarians, hasBefriendedBarbarians, playerClass)
+    val quest: String =  obtainQuest(playerLevel, playerClass, hasAngeredBarbarians, hasBefriendedBarbarians)
     println("The hero approaches the bounty board. It reads:")
     println(quest)
 
@@ -34,11 +34,16 @@ fun main() {
     println(playerLevel)
 }
 
+private fun readBountyBoard() {
+    println("The hero approaches the bounty board. It reads:")
+    println(obtainQuest(playerLevel, "paladin", false, true))
+}
+
 private fun obtainQuest(
     playerLevel: Int,
+    playerClass: String,
     hasAngeredBarbarians: Boolean,
     hasBefriendedBarbarians: Boolean,
-    playerClass: String
 ): String {
     val quest: String = when (playerLevel) {
         1 -> "Meet Mr. Bubbles in the land of soft things."
