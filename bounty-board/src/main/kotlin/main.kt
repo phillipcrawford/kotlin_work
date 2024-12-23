@@ -45,7 +45,7 @@ private fun obtainQuest(
     playerLevel: Int,
     playerClass: String = "paladin",
     hasAngeredBarbarians: Boolean = false,
-    hasBefriendedBarbarians: Boolean,
+    hasBefriendedBarbarians: Boolean = true,
 ): String {
     val quest: String = when (playerLevel) {
         1 -> "Meet Mr. Bubbles in the land of soft things."
