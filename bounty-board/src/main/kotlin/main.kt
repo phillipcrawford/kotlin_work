@@ -43,7 +43,7 @@ private fun readBountyBoard() {
 
 private fun obtainQuest(
     playerLevel: Int,
-    playerClass: String,
+    playerClass: String = "paladin",
     hasAngeredBarbarians: Boolean = false,
     hasBefriendedBarbarians: Boolean,
 ): String {
