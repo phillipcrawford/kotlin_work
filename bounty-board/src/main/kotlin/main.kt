@@ -46,9 +46,8 @@ private fun obtainQuest(
     playerClass: String = "paladin",
     hasAngeredBarbarians: Boolean = false,
     hasBefriendedBarbarians: Boolean = true,
-): String {
-    //val quest: String = when (playerLevel) {
-    return when (playerLevel) {
+
+    ) = when (playerLevel) {
         1 -> "Meet Mr. Bubbles in the land of soft things."
         in 2..5 -> {
             val canTalkToBarbarians = !hasAngeredBarbarians &&
@@ -66,4 +65,3 @@ private fun obtainQuest(
         else -> "There are no quests right now."
     }
     //return quest
-}
