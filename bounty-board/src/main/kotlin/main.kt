@@ -66,7 +66,7 @@ private fun obtainQuest(
     }
     //return quest
     fun forgeItem(
-        itemName: String,
+        itemName: String = "sword",
         material: String,
         jewels: Boolean = false,
         quantity: Int = 1
