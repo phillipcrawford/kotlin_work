@@ -65,6 +65,8 @@ private fun obtainQuest(
         else -> "There are no quests right now."
     }
     //return quest
-    fun forgeItem(){
+    fun forgeItem(
+
+    ): String{
         TODO("Implement the strings returned for forgeItem")
     }
