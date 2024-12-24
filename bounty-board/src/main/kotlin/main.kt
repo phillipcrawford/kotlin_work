@@ -66,10 +66,10 @@ private fun obtainQuest(
     }
     //return quest
     fun forgeItem(
+        quantity: Int = 1,
         itemName: String = "sword",
         material: String,
         jewels: Boolean = false,
-        quantity: Int = 1
     ): String{
         TODO("Implement the strings returned for forgeItem")
     }
