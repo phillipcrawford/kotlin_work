@@ -38,8 +38,8 @@ fun main() {
     val omSymbol: Char = '\u0950'
     print(omSymbol)
 
-
-
+    var quest: String = "Rescue the princess"
+    quest = null
 }
 
 private fun readBountyBoard() {
