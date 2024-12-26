@@ -67,7 +67,7 @@ private fun obtainQuest(
     6 -> "Locate the enchanted sword."
     7 -> "Recover the long-lost artifact of creation."
     8 -> "Defeat Nogartse, bring of death and eater of worlds."
-    else -> null//"There are no quests right now."
+    else -> "There are no quests right now."
 }
 //return quest
 fun forgeItem(
