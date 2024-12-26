@@ -36,6 +36,7 @@ fun main() {
     readBountyBoard()
 
     val omSymbol: Char = '\u0950'
+    print(omSymbol)
 
 
 
