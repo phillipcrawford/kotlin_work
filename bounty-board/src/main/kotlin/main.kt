@@ -39,7 +39,7 @@ fun main() {
     print(omSymbol)
 
     var quest: String = "Rescue the princess"
-    quest = nullasdfghj
+    quest = nullasdfghjk
 }
 
 private fun readBountyBoard() {
