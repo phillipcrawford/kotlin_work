@@ -39,7 +39,7 @@ fun main() {
     print(omSymbol)
 
     var quest: String = "Rescue the princess"
-    quest = null
+    //quest = null
 }
 
 private fun readBountyBoard() {
@@ -52,7 +52,7 @@ private fun obtainQuest(
     playerClass: String = "paladin",
     hasAngeredBarbarians: Boolean = false,
     hasBefriendedBarbarians: Boolean = true,
-): String = when (playerLevel) {
+): String? = when (playerLevel) {
     1 -> "Meet Mr. Bubbles in the land of soft things."
     in 2..5 -> {
         val canTalkToBarbarians = !hasAngeredBarbarians &&
@@ -67,7 +67,8 @@ private fun obtainQuest(
     6 -> "Locate the enchanted sword."
     7 -> "Recover the long-lost artifact of creation."
     8 -> "Defeat Nogartse, bring of death and eater of worlds."
-    else -> "There are no quests right now."
+    //else -> "There are no quests right now."
+    else -> null
 }
 //return quest
 fun forgeItem(
