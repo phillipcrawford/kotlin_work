@@ -43,8 +43,7 @@ private fun readBountyBoard() {
     println(
         """
         |  $HERO_NAME approaches the bounty board. It reads:
-        |
-        |
+        |   "${obtainQuest(playerLevel)}"
         """.trimMargin()
     )
 }
