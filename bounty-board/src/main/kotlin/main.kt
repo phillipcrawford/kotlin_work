@@ -45,7 +45,7 @@ private fun readBountyBoard() {
         |  $HERO_NAME approaches the bounty board. It reads:")
         |
         |
-        """
+        """.trimMargin()
     )
 }
 
