@@ -42,7 +42,7 @@ fun main() {
 private fun readBountyBoard() {
     println(
         """
-        |  $HERO_NAME approaches the bounty board. It reads:")
+        |  $HERO_NAME approaches the bounty board. It reads:
         |
         |
         """.trimMargin()
