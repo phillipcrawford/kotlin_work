@@ -1,8 +1,9 @@
 const val HERO_NAME = "Madrigal"
-var playerLevel: Int = 5
+var playerLevel = 0
 
 fun main() {
     println("$HERO_NAME announces her presence to the world.")
+    playerLevel = readLine()!!.toInt()
     println(playerLevel)
 
     //println("The hero gets a sword")
