@@ -40,8 +40,13 @@ fun main() {
 }
 
 private fun readBountyBoard() {
-    println("The hero approaches the bounty board. It reads:")
-    println(obtainQuest(playerLevel, "paladin", false, true))
+    println(
+        """
+        |  $HERO_NAME approaches the bounty board. It reads:")
+        |
+        |
+        """
+    )
 }
 
 private fun obtainQuest(
