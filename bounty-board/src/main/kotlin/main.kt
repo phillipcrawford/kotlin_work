@@ -20,7 +20,6 @@ fun main() {
 
 //    val hasBefriendedBarbarians = true
 //    val hasAngeredBarbarians = false
-//    val playerClass = "paladin"
 
     readBountyBoard()
 
