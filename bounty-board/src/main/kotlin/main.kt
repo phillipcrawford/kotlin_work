@@ -19,7 +19,13 @@ fun main() {
     println(faction)
 
 //    val hasBefriendedBarbarians = true
-
+//    val hasAngeredBarbarians = false
+//    val playerClass = "paladin"
+//    //function call
+//
+//    val quest: String =  obtainQuest(playerLevel, playerClass, hasAngeredBarbarians, hasBefriendedBarbarians)
+//    println("The hero approaches the bounty board. It reads:")
+//    println(quest)
     readBountyBoard()
 
     println("Time passes...")
