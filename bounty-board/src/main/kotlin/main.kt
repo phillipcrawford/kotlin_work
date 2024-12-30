@@ -19,7 +19,6 @@ fun main() {
     println(faction)
 
 //    val hasBefriendedBarbarians = true
-//    val hasAngeredBarbarians = false
 
     readBountyBoard()
 
