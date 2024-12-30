@@ -23,7 +23,6 @@ fun main() {
 //    val playerClass = "paladin"
 //    //function call
 //
-//    val quest: String =  obtainQuest(playerLevel, playerClass, hasAngeredBarbarians, hasBefriendedBarbarians)
 
     readBountyBoard()
 
